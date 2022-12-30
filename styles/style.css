@@ -1,0 +1,223 @@
+@font-face {
+  font-family: "SourceSansPro";
+  src: local("SourceSansPro"), url(fonts/SourceSansPro-Black.ttf) format(truetype); }
+
+body {
+  font-family: "SourceSansPro, sans-serif";
+  font-family: "SourceSansPro";
+  font-style: normal;
+  background: #100c16;
+  color: #fff;
+  margin: 0; }
+
+header {
+  padding-top: 17px;
+  margin-bottom: 155px; }
+
+.container {
+  max-width: 1920px;
+  padding-left: 300px;
+  padding-right: 300px; }
+
+.nav {
+  display: flex;
+  justify-content: space-between; }
+
+.btn {
+  padding: 12px 55px;
+  border: 1px solid #8276ff;
+  border-radius: 131px;
+  background: transparent;
+  color: #fff; }
+
+.h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "SourceSansPro";
+  font-size: 49px;
+  line-height: 69px;
+  font-weight: 700; }
+
+.title {
+  color: #ffc759; }
+
+.text {
+  display: flex;
+  margin-bottom: 70px; }
+
+.top-section {
+  display: flex;
+  justify-content: space-between; }
+
+/* .sale {
+  width: 270px;
+} */
+.sale-text {
+  margin-bottom: 41px; }
+
+.btn-save {
+  background: #8276ff;
+  border-radius: 31px;
+  border: none;
+  padding: 19px 57px;
+  color: #fff; }
+
+.done-logo {
+  margin-right: 17px; }
+
+.star {
+  width: fit-content;
+  background: #fdc600;
+  padding: 6px 4px;
+  margin-right: 8px;
+  border-radius: 3px; }
+
+.review {
+  display: flex;
+  align-items: center; }
+
+.review-text {
+  margin: 0;
+  font-weight: normal; }
+
+.group {
+  display: flex;
+  margin-top: 30px; }
+
+.crowd-logo {
+  margin: 0 17px 0 17px; }
+
+.card {
+  padding: 30px 0 30px 0;
+  width: 537px;
+  height: 540px;
+  display: block;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(141, 159, 244, 0.3);
+  backdrop-filter: blur(5.5px);
+  border-radius: 10px; }
+
+.card-title {
+  font-size: 39px;
+  font-weight: 700; }
+
+.card-text {
+  display: flex;
+  justify-content: center;
+  padding-right: 40px;
+  font-size: 80px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 25px; }
+
+.user-text {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 24px; }
+
+.card-price {
+  font-size: 18px;
+  text-decoration-line: line-through;
+  text-decoration-color: #f354b4; }
+
+.list {
+  list-style-type: none;
+  margin-bottom: 64px;
+  padding: 0; }
+
+.list-text {
+  margin-bottom: 8px; }
+
+.section-card {
+  display: flex;
+  justify-content: space-between; }
+
+.card-monthly-logo {
+  position: absolute;
+  top: -80px;
+  right: -83px; }
+
+.section-product {
+  display: flex;
+  justify-content: center;
+  margin: 200px 0 180px 0; }
+
+.benefit {
+  margin-bottom: 90px;
+  margin-top: 210px; }
+
+.product {
+  width: 1322px;
+  padding: 82px 54px 130px;
+  background: linear-gradient(147.19deg, #362a87 -2.99%, #2c2747 82.25%, #4323f1 157.46%);
+  border-radius: 26px; }
+  .product-title {
+    font-size: 39px;
+    font-weight: 600;
+    text-align: center; }
+    .product-title-text {
+      font-style: italic;
+      color: #ffc759; }
+  .product-text {
+    font-style: italic; }
+  .product-card-header {
+    display: flex; }
+  .product-card-information {
+    display: flex;
+    margin-top: 70px; }
+    .product-card-information-details {
+      align-items: initial; }
+      .product-card-information-details-btn {
+        font-weight: 700;
+        font-size: 20px;
+        background: #8276ff;
+        border-radius: 31px;
+        border: none;
+        padding: 16px 26px;
+        color: #fff; }
+
+.grid-container {
+  margin: 0 auto;
+  display: grid;
+  justify-items: center;
+  grid-gap: 30px 11px;
+  grid-template-columns: repeat(5, 1fr); }
+
+.companies {
+  margin-bottom: 184px; }
+  .companies-title {
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 57px; }
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(147.19deg, #362a87 -2.99%, #2c2747 82.25%, #4323f1 157.46%); }
+  .footer-text {
+    margin: auto;
+    text-align: center; }
+
+.btn-footer {
+  font-weight: 700;
+  font-size: 20px;
+  background: #8276ff;
+  border-radius: 31px;
+  border: none;
+  padding: 16px 31px;
+  color: #fff; }
+
+@media only screen and (max-width: 600px) {
+  header {
+    padding-top: 170px;
+    margin-bottom: 55px;
+    background: red; } }
+
+@font-face {
+  font-family: "sourceSansPro";
+  src: url(OFL.txt); }
+
+@font-face {
+  font-family: "sourceSansPro";
+  src: url(SourceSansPro-Black.ttf); }
