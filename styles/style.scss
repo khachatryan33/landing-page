@@ -6,8 +6,6 @@
 
 body {
   font-family: "SourceSansPro, sans-serif";
-  font-family: "SourceSansPro";
-
   font-style: normal;
   background: #100c16;
   color: #fff;
@@ -156,7 +154,7 @@ header {
   margin-top: 210px;
 }
 .product {
-  width: 1322px;
+  width: auto;
   padding: 82px 54px 130px;
 
   background: linear-gradient(
@@ -178,9 +176,22 @@ header {
   &-text {
     font-style: italic;
   }
+  &-line {
+    width: 1152px;
+    height: 47px;
+    border-bottom: 1px solid white;
+    position: absolute;
+  }
   &-card {
     &-header {
       display: flex;
+      justify-content: center;
+    }
+    &-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-left: 20px;
     }
     &-information {
       display: flex;
@@ -242,13 +253,4 @@ header {
   border: none;
   padding: 16px 31px;
   color: #fff;
-}
-
-@font-face {
-  font-family: "sourceSansPro";
-  src: url(OFL.txt);
-}
-@font-face {
-  font-family: "sourceSansPro";
-  src: url(SourceSansPro-Black.ttf);
 }
